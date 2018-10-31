@@ -22,7 +22,35 @@ addressed by this RFC: https://github.com/emberjs/rfcs/pull/367
 
 ```
 <!-- some-template.hbs !-->
-{{#if (eq 1 1) }}
-  Hello, if 1 is equal to 1 this will print!
+{{#if (not false)}}
+testing not
+{{/if}}
+
+{{#if (gt 2 1) }}
+testing gt
+{{/if}}
+
+{{#if (gte 2 2) }}
+testing gte
+{{/if}}
+
+{{#if (lt 2 1) }}
+testing lt
+{{/if}}
+
+{{#if (lte 2 2) }}
+testing lte
+{{/if}}
+
+{{#if (and true true) }}
+testing and
+{{/if}}
+
+{{#if (eq 1 1)}}
+testing eq
+{{/if}}
+
+{{#if (or false true)}}
+testing or
 {{/if}}
 ```
