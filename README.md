@@ -1,5 +1,7 @@
 # glimmer-boolean-helpers-polyfill
 
+*Currently this is for glimmer applications only*
+
 This polyfill create template helpers for the commonly used
 ember-truth-helper boolean helpers. The included helpers are outlined in this
 RFC:
