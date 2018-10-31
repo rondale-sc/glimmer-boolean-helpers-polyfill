@@ -4,3 +4,4 @@ export { default as gt } from './src/helpers/gt';
 export { default as gte } from '.src/helpers/gte';
 export { default as lt } from '.src/helpers/lt';
 export { default as lte } from '.src/helpers/lte';
+export { default as not } from '.src/helpers/not';
