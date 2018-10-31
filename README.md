@@ -1,8 +1,8 @@
 # Glimmer Truth Helpers
 
-This is a rudimentary version of ember-truth-helpers. It supplies several
-helpers meant to be used within a given template. It only includes helpers
-listed in this RFC:
+This is a rudimentary version of ember-truth-helpers for use in Glimmer.js
+applications. It supplies several helpers meant to be used within a given
+template. It only includes helpers listed in this RFC:
 https://github.com/cibernox/rfcs/blob/new-basic-handlebars-helpers/text/0000-basic-template-helpers.md
 
 To install:
