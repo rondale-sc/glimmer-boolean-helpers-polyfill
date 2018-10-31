@@ -1,10 +1,10 @@
+const path = require('path');
 const Funnel = require('broccoli-funnel');
 const BroccoliDebug = require('broccoli-debug');
-const path = require('path');
 const MergeTrees = require('broccoli-merge-trees');
 
 module.exports = {
-  name: 'glimmer-truth-helpers',
+  name: 'glimmer-boolean-helpers-polyfill',
   blueprintsPath() {
     // disable blueprints for now
     return null;
