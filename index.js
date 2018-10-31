@@ -1,0 +1,1 @@
+export { default as eq } from './src/helpers/equal';

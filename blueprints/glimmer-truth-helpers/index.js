@@ -1,1 +1,4 @@
-export { equal as default } from './src/helpers/equal';
+module.exports = {
+  normalizeEntityName: function() {
+  },
+}
