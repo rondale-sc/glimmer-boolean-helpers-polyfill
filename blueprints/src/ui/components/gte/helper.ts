@@ -1,1 +1,1 @@
-export { gte as default } from 'glimmer-truth-helpers';
+export { gte as default } from 'glimmer-boolean-helpers-polyfill';

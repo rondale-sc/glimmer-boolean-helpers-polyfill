@@ -1,1 +1,1 @@
-export { lte as default } from 'glimmer-truth-helpers';
+export { lte as default } from 'glimmer-boolean-helpers-polyfill';

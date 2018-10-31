@@ -1,1 +1,1 @@
-export { and as default } from 'glimmer-truth-helpers';
+export { and as default } from 'glimmer-boolean-helpers-polyfill';
