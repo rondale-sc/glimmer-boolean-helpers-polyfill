@@ -13,7 +13,7 @@ module.exports = {
     if (type === 'src') {
       let debugTree = BroccoliDebug.buildDebugCallback(`glimmer-truth-helpers`);
 
-      let helperTree = debugTree(new Funnel(path.join(__dirname, 'glimmer-truth-helpers'), 'helperTree'));
+      let helperTree = debugTree(new Funnel(path.join(__dirname, 'blueprints'), 'helperTree'));
 
       tree = debugTree(tree, 'srcTree');
 
