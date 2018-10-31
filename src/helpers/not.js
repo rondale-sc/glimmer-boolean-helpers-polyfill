@@ -1,4 +1,4 @@
-import truthConvert from '../utils/truth-convert';
+import truthConvert from './utils/truth-convert';
 
 export function not(params) {
   for (let i=0, len=params.length; i<len; i++) {
