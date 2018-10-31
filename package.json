@@ -1,6 +1,9 @@
 {
   "name": "glimmer-truth-helpers",
   "version": "1.0.0",
+  "keywords": [
+    "ember-addon"
+  ],
   "description": "Glimmer version of popular Ember Truth Helpers",
   "main": "index.js",
   "author": "Jonathan Jackson <jonathan.jackson1@me.com>",
