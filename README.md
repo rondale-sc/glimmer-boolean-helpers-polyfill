@@ -8,6 +8,8 @@ This polyfill create template helpers for the commonly used
 ember-truth-helper boolean helpers. The included helpers are outlined in this
 RFC:
 
+View tests at associated with travis badge here: [tests/dummy/src/ui/components/Dummy/component-test.ts](https://github.com/rondale-sc/glimmer-boolean-helpers-polyfill/blob/master/tests/dummy/src/ui/components/Dummy/component-test.ts)
+
 - [Basic Template Helpers RFC](https://github.com/cibernox/rfcs/blob/new-basic-handlebars-helpers/text/0000-basic-template-helpers.md)
 
 To install:
