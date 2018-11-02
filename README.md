@@ -1,5 +1,7 @@
 # glimmer-boolean-helpers-polyfill
 
+[![Build Status](https://travis-ci.org/rondale-sc/glimmer-boolean-helpers-polyfill.svg?branch=master)](https://travis-ci.org/rondale-sc/glimmer-boolean-helpers-polyfill)
+
 *Currently this is for glimmer applications only*
 
 This polyfill create template helpers for the commonly used
