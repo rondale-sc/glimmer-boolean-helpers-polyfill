@@ -448,4 +448,20 @@ module("Component: Dummy", function(hooks) {
       );
     });
   });
+
+  module('helper:not-equal', function(hooks) {
+    setupRenderingTest(hooks);
+
+    test('simple test 1', async function(assert) {
+      await render(
+        hbs`[{{not-eq true true}}] [{{not-eq true false}}] [{{not-eq false true}}] [{{not-eq false false}}]`
+      );
+
+      assert.equal(
+        this.containerElement.innerText,
+        '[false] [true] [true] [false]',
+        'value should be "[false] [true] [true] [false]"'
+      );
+    });
+  });
 });

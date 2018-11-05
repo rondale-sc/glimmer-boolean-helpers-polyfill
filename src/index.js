@@ -6,3 +6,4 @@ export { default as lt } from './helpers/lt';
 export { default as lte } from './helpers/lte';
 export { default as not } from './helpers/not';
 export { default as or } from './helpers/or';
+export { default as notEq } from './helpers/not-eq';
